@@ -15,7 +15,7 @@ env:
   LOCATION: "West US 2"
   HOSTINGPLANNAME: "JavaDemoTyler-plan"
   APPINSIGHTLOCATION: "West US 2"
-  SKU: "Standard S1"
+  SKU: "S1 Standard"
   WEBAPPTEMPLATENAME: "linux-webapp-template.json"
 
 jobs:
