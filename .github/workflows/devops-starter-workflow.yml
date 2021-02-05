@@ -71,6 +71,7 @@ jobs:
     name: Deploy to azure web app
     needs: [build]
     runs-on: ubuntu-latest
+    environment: Azure
     steps:
     # Downloading build artifact
     - name: Download a Build Artifact
